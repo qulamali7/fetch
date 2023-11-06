@@ -1,0 +1,19 @@
+body {
+  width: 50%;
+  min-width: 100vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  div {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    background-color: aliceblue;
+  }
+}
